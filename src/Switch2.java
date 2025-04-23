@@ -23,8 +23,7 @@ public class Switch2 {
             case 11 -> "Noyabr";
             case 12 -> "Dekabr";
 
-            default -> "Bunday oy yo'q";
-
+            default -> throw new RuntimeException("Bunday oy yo'q");
         };
 
         System.out.println(oy);
